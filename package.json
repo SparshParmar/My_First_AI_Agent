@@ -1,0 +1,23 @@
+{
+  "name": "my_first_ai_agent",
+  "version": "1.0.0",
+  "description": "AI Agent from scratch",
+  "keywords": [
+    "AI",
+    "AIAGENT",
+    "JS",
+    "AUTOPROMPTING",
+    "OPENAI"
+  ],
+  "license": "ISC",
+  "author": "sparsh parmar",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "openai": "^4.89.0",
+    "readline-sync": "^1.4.10"
+  }
+}
