@@ -26,20 +26,6 @@ const tools = {
   getWeatherDetails: getWeatherDetails,
 };
 
-// client.chat.completions
-//   .create({
-//     model: "gpt-3.5-turbo",
-//     messages: [
-//       {
-//         role: "user",
-//         content: "Hey, how are you doing?",
-//       },
-//     ],
-//   })
-//   .then((e) => {
-//     console.log(e.choices[0].message.content);
-//   });
-
 const SYSTEM_PROMPT = `
 You are an AI Assistant with START, PLAN, ACTION, OBSERVATION and OUTPUT state,
 Wait for the user prompt and first PLAN using available tools.
