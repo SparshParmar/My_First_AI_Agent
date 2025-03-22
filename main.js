@@ -1,7 +1,7 @@
 import OpenAI from "openai/index.mjs";
 import readlineSync from "readline-sync";
 
-const API_KEY = "YOUR_SECRET_KEY";
+const API_KEY = "YOUR_KEY";
 
 const client = new OpenAI({
   apiKey: API_KEY,
